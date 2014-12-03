@@ -92,7 +92,8 @@ body {
     max-width: 38em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 1em;
+    padding: 1em;
 }
 .social {
   display: flex;
@@ -167,13 +168,15 @@ body {
   color: #C0A089;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
     .masthead {
         padding: 3em 0;
     }
     .masthead-heading {
         font-size: 3em;
     }
+}
+@media only screen and (max-width: 500px) {
     .social {
       flex-direction: column;
     }
