@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+    /* Typography Declarations */
+    margin: 0;
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+  color: #F0F0F2;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url("https://unsplash.imgix.net/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 0.5em #BF9764;
+}
+
+.masthead-intro {
+	margin-bottom: 0.5em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 3em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 8em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 40%;
+  margin: 1em;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.social-icon {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 2em;
+    font-color: white;
+}
+
+.introduction-section p,
+.location-section p,
+.content-footer p,
+.questions-section p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 130%;
+    font-size: 1.2em;
+    -webkit-font-smoothing: antialiased;
+}
+.questions-section h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.7em;
+    font-weight: bold;
+/*    color: #335756;*/
+    color: #714E3C;
+    margin: 2em 0 1em 0;
+}
+
+.introduction-section h1,
+.location-section h1,
+.questions-section h1 {
+    margin-top: 1em;
+    margin-bottom: 0.7em;
+    font-size: 2.3em;
+    color: #453328;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+}
+
+.content-footer {
+    background-color: #271D15;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+    padding-top: 6em;
+    padding-bottom: 10em;
+    margin-bottom: -2em;
+}
+
+.content-footer a {
+  color: white;
+  text-decoration: none;
+}
+.content-footer a:hover {
+  color: #C0A089;
+}
